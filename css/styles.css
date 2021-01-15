@@ -36,7 +36,7 @@
 
 
 
-    .wrap{
+    #wrap{
         min-height: 100vh;
     }
 
@@ -85,6 +85,7 @@
 
     @media(min-width:768px){
 
+  
     body{
      max-width:100%;
      font-size: 21px;
@@ -106,7 +107,6 @@
     .main-div{
       display: inline-flex;
       flex-direction: row-reverse;
-      padding: 30px opx -20px 0px;
       margin-bottom: -90%;
     }
 
@@ -115,7 +115,6 @@
         font-size: 21px;
         height: auto;
         margin-right:10px;
-        padding: 70px 70px -50px 0px;
         margin-bottom: -10px;
     }
 
@@ -123,7 +122,11 @@
         margin: -10% 0% 10% 0%;
 
     }
-
+    
+    #map{
+      inline-size: max-content;
+      
+    }
 
     .image{
         width: 95%;
@@ -155,20 +158,16 @@
       font-size: 15px;
     }
 
-    .maintain{
-        padding: 20% 20% -20% 20%;
-        margin: 20% 20% 0% 20%;
-    }
+    
 
     .contact-info{
-        margin:20% 28% -12% 106px;
-        padding-left:-10%;
+        margin:20% 28% 0px 140px;
+  
 
     }
 
     .last-p{
-        padding: none;
-        margin-top:30%;
+        margin-top:10%;
     }
     .div-section{
      float:left;
@@ -204,7 +203,15 @@
         footer {
           margin: 0;
         }
+
+        .contact-info{
+          margin-left: 26%;
+          margin-top:50px;
+        }
         
+        .last-p{
+          margin: 10px 0px 0px 0px;
+        }
           
         
       }
