@@ -9,7 +9,6 @@
     body{
     padding:10%;
     text-align: center;
-    font-family: 'Roboto',serif;
     }
 
     .portfolio{
@@ -36,7 +35,7 @@
 
 
 
-    #wrap{
+    .wrap{
         min-height: 100vh;
     }
 
@@ -65,11 +64,6 @@
      font-style: normal;
     }
 
-   footer a,
-   footer .bottom-header{
-     margin-left: auto;
-   }
-
     footer{
     display: flex;
     border-top: solid grey 1px;
@@ -85,7 +79,6 @@
 
     @media(min-width:768px){
 
-  
     body{
      max-width:100%;
      font-size: 21px;
@@ -107,6 +100,7 @@
     .main-div{
       display: inline-flex;
       flex-direction: row-reverse;
+      padding: 30px  0px 0px;
       margin-bottom: -90%;
     }
 
@@ -115,6 +109,7 @@
         font-size: 21px;
         height: auto;
         margin-right:10px;
+        padding: 70px 70px 0px 0px;
         margin-bottom: -10px;
     }
 
@@ -122,11 +117,7 @@
         margin: -10% 0% 10% 0%;
 
     }
-    
-    #map{
-      inline-size: max-content;
-      
-    }
+
 
     .image{
         width: 95%;
@@ -158,16 +149,19 @@
       font-size: 15px;
     }
 
-    
+    .maintain{
+        padding: 20px 20px 0px 20px;
+        margin: 20% 20% 0% 20%;
+    }
 
     .contact-info{
-        margin:20% 28% 0px 140px;
-  
+      margin: 0% 28% 12% 70px;
+        padding-left:0px;
 
     }
 
     .last-p{
-        margin-top:10%;
+        margin-top:30px;
     }
     .div-section{
      float:left;
@@ -203,15 +197,10 @@
         footer {
           margin: 0;
         }
-
+        .bottom-header{
+          margin-left: 448px;    
+        }
         .contact-info{
-          margin-left: 26%;
-          margin-top:50px;
+          margin: 0% 28% 12% 150px;
         }
-        
-        .last-p{
-          margin: 10px 0px 0px 0px;
-        }
-          
-        
       }
