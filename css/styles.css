@@ -1,5 +1,5 @@
   *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     }
 
     a{
@@ -8,7 +8,11 @@
 
     body{
     padding:10%;
-    text-align: center;
+    text-align:center;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    max-width: 1200px;
+    margin: auto;
     }
 
     .portfolio{
@@ -83,6 +87,7 @@
      max-width:100%;
      font-size: 21px;
      text-align: center;
+     padding: 10px 20px 10px 35px;
      } 
 
      h3{
@@ -94,7 +99,7 @@
      }
 
     .profile-pic{
-        width:100%;
+        width:50%;
     }
 
     .main-div{
@@ -106,15 +111,16 @@
 
     .first-paragraph{
         padding-top: 30px;
-        font-size: 21px;
+        font-size: 25px;
         height: auto;
         margin-right:10px;
         padding: 70px 70px 0px 0px;
-        margin-bottom: -10px;
+        
     }
 
     .absolute-header{
-        margin: -10% 0% 10% 0%;
+        margin: 0% 0% 10% 0%;
+        text-align: left;
 
     }
 
@@ -124,7 +130,7 @@
     }
 
     .major-paragraph{
-    padding:10%;
+    padding:10px;
     font-size: 21px;
     }
 
@@ -147,7 +153,7 @@
       text-align: center;
       display: flex;
       font-size: 15px;
-    }
+   }
 
     .maintain{
         padding: 20px 20px 0px 20px;
@@ -170,6 +176,7 @@
 
      .bottom-header{
          display:flex;
+         margin-left: 155px;
      }
 
     }
@@ -178,12 +185,18 @@
 
     @media(min-width:1024px) {
         body {
-          padding: 0 5px;
+          padding: 0 20px;
         }
         .main-h1 {
           float: left;
           line-height: 0.50;
         }
+
+        .first-paragraph{
+          font-size: xx-large;
+        }
+
+
         .header-div {
           float: right;
         }
@@ -192,13 +205,13 @@
           min-height: 425px;
         }
         .major-paragraph {
-          padding: 0 0 10px 0;
+          padding:10px;
         }
         footer {
           margin: 0;
         }
         .bottom-header{
-          margin-left: 448px;    
+          margin-left: 480px;    
         }
         .contact-info{
           margin: 0% 28% 12% 150px;
