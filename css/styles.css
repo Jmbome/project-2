@@ -186,7 +186,9 @@
     @media(min-width:1024px) {
         body {
           padding: 0 20px;
+          max-width: 1200px;
         }
+
         .main-h1 {
           float: left;
           line-height: 0.50;
@@ -207,12 +209,12 @@
         .major-paragraph {
           padding:10px;
         }
-        footer {
-          margin: 0;
+
+        footer a, 
+        footer .bottom-header {
+          margin-left: auto;
         }
-        .bottom-header{
-          margin-left: 480px;    
-        }
+
         .contact-info{
           margin: 0% 28% 12% 150px;
         }
